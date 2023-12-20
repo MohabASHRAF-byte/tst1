@@ -1,0 +1,8 @@
+name : ay7aga
+on :
+   push
+jobs:
+   job1:
+    -name : first step 
+     run: echo "shit"
+
