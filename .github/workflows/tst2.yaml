@@ -1,10 +1,9 @@
-name : ay7aga
-on :
-   push
+name: ay7aga
+on:
+  push
 jobs:
-   job1:
-    runs-on:ubuntu-latest
+  job1:
+    runs-on: ubuntu-latest
     steps:
-      -name : first step 
-       run: echo "shit"
-
+      - name: first step
+        run: echo "shit"
