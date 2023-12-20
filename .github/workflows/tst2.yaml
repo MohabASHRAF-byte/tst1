@@ -3,6 +3,8 @@ on :
    push
 jobs:
    job1:
-    -name : first step 
-     run: echo "shit"
+    runs-on:ubuntu-latest
+    steps:
+      -name : first step 
+       run: echo "shit"
 
